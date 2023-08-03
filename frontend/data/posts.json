@@ -1,0 +1,12 @@
+[
+    {
+        "title": "When is TDD a good idea?",
+        "summary": "TDD is a good idea when you have a clear idea of what you want to build, but you don't know how to build it.",
+        "body": "TDD is a good idea when you have a clear idea of what you want to build, but you don't know how to build it.\n"
+    },
+    {
+        "title": "My experience setting up a ruby on rails app",
+        "summary": "15 months ago when I got an interview with a company named Yuhu, I decided to learn Ruby on Rails to impress them.",
+        "body": "15 months ago when I got an interview with a company named Yuhu, I decided to learn Ruby on Rails to impress them.\n"
+    }
+]
