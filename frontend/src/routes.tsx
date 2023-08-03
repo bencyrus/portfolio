@@ -6,12 +6,17 @@ import ProjectsPage from './pages/ProjectsPage'
 import PostsPage from './pages/PostsPage'
 
 import swePosts from './data/swePosts.json'
+import MainPage from './pages/MainPage'
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
         children: [
+            {
+                path: '',
+                element: <MainPage />,
+            },
             {
                 path: 'swe',
                 element: <SwePage />,
