@@ -1,20 +1,11 @@
-import profile from './profile.jpg'
+import { Outlet } from 'react-router-dom'
+import MainPage from './pages/MainPage'
 
 function App() {
     return (
         <div className='App'>
-            <header className='App-header'>
-                <img
-                    src={profile}
-                    className='App-logo'
-                    alt='logo'
-                    style={{
-                        width: '100px',
-                        height: '100px',
-                        borderRadius: '50%',
-                    }}
-                />
-            </header>
+            <MainPage />
+            <Outlet />
         </div>
     )
 }
