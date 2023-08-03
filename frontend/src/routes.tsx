@@ -5,6 +5,8 @@ import PhotographyPage from './pages/PhotographyPage'
 import ProjectsPage from './pages/ProjectsPage'
 import PostsPage from './pages/PostsPage'
 
+import swePosts from './data/swePosts.json'
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -20,7 +22,7 @@ const router = createBrowserRouter([
                     },
                     {
                         path: 'posts',
-                        element: <PostsPage />,
+                        element: <PostsPage posts={swePosts} />,
                     },
                 ],
             },
@@ -34,7 +36,7 @@ const router = createBrowserRouter([
                     },
                     {
                         path: 'posts',
-                        element: <PostsPage />,
+                        element: <PostsPage posts={swePosts} />,
                     },
                 ],
             },
