@@ -1,7 +1,6 @@
 # **Ben Cyrus**
 
-**Toronto, ON** | [realbencyrus@gmail.com](mailto:realbencyrus@gmail.com) | **(587) 832 4402**  
-[LinkedIn](https://linkedin.com/in/bencyrus) | [GitHub](https://github.com/bencyrus)
+**Toronto, ON** | [realbencyrus@gmail.com](mailto:realbencyrus@gmail.com) | **(587) 832 4402**  [LinkedIn](https://linkedin.com/in/bencyrus) | [GitHub](https://github.com/bencyrus)
 
 **Full-Stack software engineer** passionate about automation, strategy, and user-centric design with start-up experience.
 
