@@ -1,21 +1,10 @@
 import { Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar'
 
 function App() {
     return (
         <div className='App'>
-            <nav>
-                <ul>
-                    <li>
-                        <a href='/'>Home</a>
-                    </li>
-                    <li>
-                        <a href='/swe'>SWE</a>
-                    </li>
-                    <li>
-                        <a href='/photography'>Photography</a>
-                    </li>
-                </ul>
-            </nav>
+            <Navbar />
             <Outlet />
         </div>
     )
