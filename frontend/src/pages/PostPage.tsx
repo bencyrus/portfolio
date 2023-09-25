@@ -7,9 +7,12 @@ const PostPage = () => {
 
     return (
         <div>
-            <h1>{post?.title}</h1>
-            <p>{post?.summary}</p>
-            <p>{post?.body}</p>
+            <header>
+                <h1>{post?.title}</h1>
+                <p>{post?.summary}</p>
+            </header>
+
+            {post?.body && <div dangerouslySetInnerHTML={{ __html: post.body }} />}
         </div>
     )
 }

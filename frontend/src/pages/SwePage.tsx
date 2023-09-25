@@ -1,5 +1,3 @@
-import { Outlet } from 'react-router-dom'
-
 const SwePage = () => {
     return (
         <div>
@@ -14,7 +12,6 @@ const SwePage = () => {
                     </li>
                 </ul>
             </nav>
-            <Outlet />
         </div>
     )
 }
