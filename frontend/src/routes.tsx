@@ -7,6 +7,7 @@ import PostsPage from './pages/PostsPage'
 
 import swePosts from './data/swePosts.json'
 import MainPage from './pages/MainPage'
+import PostPage from './components/PostPage'
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
                     {
                         path: 'posts',
                         element: <PostsPage posts={swePosts} />,
+                    },
+                    {
+                        path: 'posts/:id',
+                        element: <PostPage />,
                     },
                 ],
             },

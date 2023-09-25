@@ -1,12 +1,20 @@
 [
     {
+        "id": 1,
         "title": "When is TDD a good idea?",
         "summary": "TDD is a good idea when you have a clear idea of what you want to build, but you don't know how to build it.",
         "body": "TDD is a good idea when you have a clear idea of what you want to build, but you don't know how to build it.\n"
     },
     {
+        "id": 2,
         "title": "My experience setting up a ruby on rails app",
         "summary": "15 months ago when I got an interview with a company named Yuhu, I decided to learn Ruby on Rails to impress them.",
         "body": "15 months ago when I got an interview with a company named Yuhu, I decided to learn Ruby on Rails to impress them.\n"
+    },
+    {
+        "id": 3,
+        "title": "How to use the command line",
+        "summary": "The command line is a tool that allows you to interact with your computer using text commands. It is a very powerful tool that can be used to automate tasks.",
+        "body": "They want to write about testing. I say, “No, I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.” They say, “You have to write about testing.” I say, “I don’t want to write about testing.”"
     }
 ]
