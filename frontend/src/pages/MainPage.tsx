@@ -1,16 +1,28 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import profile from '../profile.jpg'
 import PostCard from '../components/PostCard'
 import swePosts from '../data/swePosts.json'
 
 const MainPage = () => {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth)
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    })
+
     return (
         <div>
             <header
                 className='App-header'
                 style={{
                     display: 'flex',
-                    flexDirection: 'row',
+                    flexDirection: windowWidth < 768 ? 'column' : 'row',
                     alignItems: 'center',
                     justifyContent: 'center',
                     gap: '20px',
@@ -30,7 +42,7 @@ const MainPage = () => {
                     <h1
                         style={{
                             fontSize: '50px',
-                            marginBottom: '0px',
+                            margin: '0px',
                         }}>
                         Ben Cyrus
                     </h1>
