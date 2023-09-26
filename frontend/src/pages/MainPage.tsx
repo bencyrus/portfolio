@@ -7,6 +7,8 @@ import swePosts from '../data/swePosts.json'
 const MainPage = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
+    const sortedPosts = swePosts.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+
     const handleResize = () => {
         setWindowWidth(window.innerWidth)
     }
@@ -72,7 +74,7 @@ const MainPage = () => {
 
             <div>
                 <h2>Latest Activity</h2>
-                {swePosts.map((post) => (
+                {sortedPosts.map((post) => (
                     <PostCard key={post.id} post={post} />
                 ))}
             </div>
