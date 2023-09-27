@@ -10,6 +10,7 @@ const PostsPage = ({ posts }: PostsPageProps) => {
             <h1>Posts Page</h1>
             {posts.map((post) => (
                 <div
+                    key={post.id}
                     style={{
                         width: '100%',
                         maxWidth: '800px',

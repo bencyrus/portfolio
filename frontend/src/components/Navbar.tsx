@@ -6,7 +6,13 @@ import { FaBars } from 'react-icons/fa'
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     const location = useLocation()
-    const isActive = (path: string) => location.pathname === path
+
+    const isActive = (path: string) => {
+        if (path === '/') {
+            return location.pathname === path
+        }
+        return location.pathname.includes(path)
+    }
 
     const handleOpen = () => {
         setOpen(!open)

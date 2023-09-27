@@ -25,7 +25,6 @@ const PostCard = ({ post }: { post: Post }) => {
             className='card'
             style={{
                 width: '100%',
-                maxWidth: '1200px',
                 backgroundColor: '#ededed',
                 borderRadius: '5px',
                 padding: '10px',

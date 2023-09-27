@@ -9,6 +9,8 @@ import swePosts from './data/swePosts.json'
 import MainPage from './pages/MainPage'
 import PostPage from './pages/PostPage'
 
+const sortedSwePosts = swePosts.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -31,7 +33,7 @@ const router = createBrowserRouter([
                     },
                     {
                         path: 'posts',
-                        element: <PostsPage posts={swePosts} />,
+                        element: <PostsPage posts={sortedSwePosts} />,
                     },
                     {
                         path: 'posts/:id',

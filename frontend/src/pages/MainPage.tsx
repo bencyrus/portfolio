@@ -74,6 +74,7 @@ const MainPage = () => {
 
             <div
                 style={{
+                    maxWidth: '1200px',
                     margin: '0 auto',
                 }}>
                 <h2>Latest Activity</h2>
