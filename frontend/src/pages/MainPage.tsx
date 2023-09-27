@@ -72,7 +72,10 @@ const MainPage = () => {
                 </div>
             </div>
 
-            <div>
+            <div
+                style={{
+                    margin: '0 auto',
+                }}>
                 <h2>Latest Activity</h2>
                 {sortedPosts.map((post) => (
                     <PostCard key={post.id} post={post} />
